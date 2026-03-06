@@ -1,0 +1,17 @@
+[project]
+name = "rag-with-rbac"
+version = "0.1.0"
+description = "RAG platform with RBAC powered by Weaviate, Azure OpenAI, and FastAPI"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "openai>=2.26.0",
+    "python-dotenv>=1.2.2",
+    "pyyaml>=6.0",
+    "weaviate-client[agents]>=4.20.3",
+    "pypdf>=6.7.5",
+    "python-docx>=1.2.0",
+    "python-multipart>=0.0.22",
+]

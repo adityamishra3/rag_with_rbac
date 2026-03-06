@@ -1,0 +1,9 @@
+rag:
+  chunk_size: 500
+  chunk_overlap: 50
+  top_k: 5
+  collection_name: Documents
+
+weaviate:
+  host: localhost
+  port: 8080
