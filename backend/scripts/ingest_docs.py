@@ -17,7 +17,7 @@ from app.services.vector_service import insert_document
 from app.utils.document_parser import extract_text
 from app.utils.chunking import chunk_text
 
-DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
+DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "..", "data")
 
 # Map filename → allowed roles. Filenames not listed fall back to DEFAULT_ROLES.
 FILE_ROLES: dict[str, list[str]] = {
